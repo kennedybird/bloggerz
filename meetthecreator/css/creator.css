@@ -77,7 +77,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: color 0.3s ease; /* Adding transition for smooth effect */
 }
+
+.navs a:hover {
+    color: white; /* Change the color to your desired hover color */
+}
+
 
 .secondrectangle {
     width: 100%;
