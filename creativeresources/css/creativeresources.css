@@ -124,8 +124,6 @@ h2 {
     background-size: cover;
 }
 
-/* Add this CSS code to your existing stylesheet */
-
 .creativespaces:hover img {
     opacity: 0.8; /* Adjust opacity as needed */
 }
