@@ -69,12 +69,12 @@ body {
 .secondrectangle {
     width: 100%;
     position: absolute;
-    top: 400px;
+    top: 500px;
     left: 0;
     background-color: #faf5c59e;
-    opacity: 0.89;
-    padding-top: 52px;
-    padding-bottom: 52px;
+    opacity: 0.95;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .secondrectangle p {
