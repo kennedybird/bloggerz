@@ -40,16 +40,29 @@ body {
     font-weight: 500;
     line-height: normal;
     margin: 0;
+    transition: color 0.3s ease; /* Adding transition for smooth effect */
+    align-items: center;
 }
+
+.headerrectangle h1:hover {
+    color: white; /* Change the color to your desired hover color */
+}
+
+.headerrectangle a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
 
 .navs {
     display: flex;
     position: absolute;
     top: 265px;
-    left: 290px;
-    right: 0px;
+    align-items: center;
     z-index: 999;
 }
+
+/*  FIX THIS ON OTHER PAGES TO CENTER NAVS */
 
 .navs > div {
     margin: 0 39px;
