@@ -192,6 +192,18 @@ h2 {
 }
 
 
+.collagesprite {
+    height: 1198px;
+    width: 450px;
+    background: url(img/collagesprite.png) 0 0; /* Adjust the image path and position */
+}
+
+.collagesprite:hover {
+    background: url(img/collagesprite.png) 0 -599px; /* Adjust the image path and hover position */
+}
+
+
+
 
 
 
