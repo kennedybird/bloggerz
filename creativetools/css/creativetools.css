@@ -111,21 +111,6 @@ body {
     letter-spacing: 0;
 }
 
-.yellowsection {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 195px;
-    margin-right: 215px;
-}
-
-.yellowsection .creativespaces,
-.yellowsection .creativetools {
-    display: inline-block;
-    margin-top: 58px;
-    margin-bottom: 20px;
-}
-
-
 
 h2 {
     color: #000;
