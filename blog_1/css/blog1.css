@@ -192,15 +192,42 @@ h2 {
 }
 
 
-.collagesprite {
-    height: 1198px;
+.cardsprite {
+    height: 570px;
     width: 450px;
-    background: url(img/collagesprite.png) 0 0; /* Adjust the image path and position */
-}
+    background: url(../img/cardsprite.png) 0 0; /* Adjust the image path and position */
+    }
+
+
+.cardsprite:hover {
+    background: url(../img/cardsprite.png) 0 -570px; /* Adjust the image path and hover position */
+    }
+
+
+.collagesprite {
+    height: 570px;
+    width: 450px;
+    background: url(../img/collagesprite.png) 0 0; /* Adjust the image path and position */
+    }
+
 
 .collagesprite:hover {
-    background: url(img/collagesprite.png) 0 -599px; /* Adjust the image path and hover position */
-}
+    background: url(../img/collagesprite.png) 0 -570px; /* Adjust the image path and hover position */
+    }
+
+
+    .blockprintsprite{
+        height: 570px;
+        width: 450px;
+        background: url(../img/blocksprite.png) 0 0; /* Adjust the image path and position */
+        }
+    
+    
+    .blockprintsprite:hover {
+        background: url(../img/blocksprite.png) 0 -570px; /* Adjust the image path and hover position */
+        }
+
+
 
 
 
