@@ -77,6 +77,31 @@ body {
 }
 
 
+.secondrectangle {
+    width: 100%;
+    position: absolute;
+    top: 565px;
+    left: 0;
+    background-color: #B0C1CA;
+    opacity: 0.89;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.secondrectangle p {
+    /*position: absolute;
+    width: 1039px;
+    height: 367px; */
+    top: 87px;
+    font-family: "Della Respira", Helvetia;
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+
 .yellowsection {
     display: flex;
     justify-content: space-between;
