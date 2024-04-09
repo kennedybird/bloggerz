@@ -1,0 +1,173 @@
+body {
+    /*   background-image: url(../img/dressesbackground.jpg);*/
+    margin: 0;
+}
+
+.firstsection {
+    position: relative;
+}
+
+.beachiesbackground {
+    background-image: url(../img/beachbackground.png);
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+  /*  flex-shrink: 0;
+    position: relative; */
+}
+
+.headerrectangle {
+    width: 100%;
+    height: 327px;
+    opacity: 0.6;
+    background: #BDCDC4;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    
+}
+
+.headerrectangle h1 {
+    color: #000;
+    font-family: "Della Respira";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    transition: color 0.3s ease; /* Adding transition for smooth effect */
+    align-items: center;
+}
+
+.headerrectangle h1:hover {
+    color: white; /* Change the color to your desired hover color */
+}
+
+.headerrectangle a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+
+
+.navs {
+    display: flex;
+    position: absolute;
+    top: 265px;
+    align-items: center;
+    z-index: 999;
+}
+
+/*  FIX THIS ON OTHER PAGES TO CENTER NAVS */
+
+.navs > div {
+    margin: 0 39px;
+}
+
+.navs a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: Hubballi;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.navs a:hover {
+    color: white; /* Change the color to your desired hover color */
+}
+
+
+.secondrectangle {
+    width: 100%;
+    position: absolute;
+    top: 480px;
+    left: 0;
+    background-color: #B0C1CA;
+    opacity: 0.95;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.secondrectangle p {
+    /*position: absolute;
+    width: 1039px;
+    height: 367px; */
+    top: 87px;
+    font-family: "Della Respira", Helvetia;
+    font-weight: 400;
+    color: #000;
+    font-size: 30px;
+    margin-left: 211px;
+    margin-right: 190px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.yellowsection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 195px;
+    margin-right: 215px;
+}
+
+.yellowsection .creativespaces,
+.yellowsection .creativetools {
+    display: inline-block;
+    margin-top: 58px;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    color: #000;
+    font-family: Hubballi;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.blogblurb {
+    color: #000;
+    font-family: "Della Respira";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    width: 40%;
+    text-align: center;
+}
+ 
+
+.greensection {
+   /* top: 1050px;
+    margin-top: 1000px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 830px;
+    /* position: absolute; */
+    background-color:#faf5c59e; 
+    opacity: 0.89;
+}
+
+
+.beach {
+    background-image: url(../img/beachbackground.png);
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
